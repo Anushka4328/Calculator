@@ -1,4 +1,4 @@
-# Define the calculator functions
+
 def add(x, y):
     return x + y
 
@@ -14,7 +14,6 @@ def divide(x, y):
     else:
         return x / y
 
-# Main program
 def calculator():
     print("Select operation:")
     print("1. Add")
@@ -40,10 +39,8 @@ def calculator():
         else:
             print("Invalid Input")
 
-        # Ask if the user wants another calculation
+       
         next_calculation = input("Do you want to perform another calculation? (yes/no): ")
         if next_calculation.lower() != 'yes':
             break
-
-# Run the calculator
 calculator()
